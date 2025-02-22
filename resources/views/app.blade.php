@@ -62,7 +62,7 @@
         }
     </style>
 </head>
-<body>
+<body style="background: linear-gradient(to right, #667eea, #764ba2);">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
@@ -75,10 +75,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('index')}}">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('login_in')}}">Login</a></li>
                 </ul>
             </div>
         </div>
@@ -88,7 +88,7 @@
    
 
     <!-- Main Content -->
-    <div class="container my-5">
+    <div class="container my-5 ">
         @yield('content')
     </div>
 
@@ -99,7 +99,7 @@
                 <div class="col-md-4 mb-4">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="{{route('index')}}">Home</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Login</a></li>

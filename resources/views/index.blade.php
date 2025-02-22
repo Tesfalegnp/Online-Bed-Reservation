@@ -4,6 +4,8 @@
 
 @section('content')
     <!-- Hero Section -->
+     <!-- <div style="background: linear-gradient(to right, #667eea, #764ba2);"> -->
+
     <header class="hero-section" style="width:100%; position: relative; overflow: hidden; text-align: center;">
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/Cmq_wSz7FL0?autoplay=1&loop=1&playlist=Cmq_wSz7FL0&mute=1&controls=0&modestbranding=1&showinfo=0&disablekb=1&fs=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <div class="hero-content" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);">
@@ -41,4 +43,6 @@
             </div>
         </div>
     </section>
+
+<!-- </div> -->
 @endsection
